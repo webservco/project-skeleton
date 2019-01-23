@@ -10,7 +10,7 @@ This is a blank project with no code. For a Web Application starter project plea
 * PSR-4 autoload
 * `webservco/framework` `@dev`
 
-### Optional
+## Optional utilities
 * `pds/skeleton`
 * `squizlabs/php_codesniffer`
 * `phpstan/phpstan`
@@ -20,7 +20,7 @@ This is a blank project with no code. For a Web Application starter project plea
 
 ## Setup
 ```
-git clone https://github.com/webservco/project-skeleton.git my-project && cd my-project
+PROJECT='my-project'; git clone https://github.com/webservco/project-skeleton.git $PROJECT && cd $PROJECT
 composer install
 ```
 
