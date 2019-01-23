@@ -2,6 +2,8 @@
 
 A simple webservco/framework Project Skeleton.
 
+This is a blank project with no code. For a Web Application starter project please see [webservco/webapp-skeleton](https://github.com/webservco/webapp-skeleton)
+
 ---
 
 ## Features
