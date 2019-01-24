@@ -12,8 +12,8 @@ For a working Web Application starter project please see [webservco/webapp-skele
 * `webservco/framework` `@dev`
 
 ## Code examples
-* [Form](\docs\Examples\Form.md)
-* [Database](\docs\Examples\Database.md)
+* [Form](/docs/Examples/Form.md)
+* [Database](/docs/Examples/Database.md)
 
 ## Optional utilities
 * `pds/skeleton`
