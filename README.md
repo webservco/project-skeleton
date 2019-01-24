@@ -2,7 +2,8 @@
 
 A simple webservco/framework Project Skeleton.
 
-This is a blank project with no code. For a Web Application starter project please see [webservco/webapp-skeleton](https://github.com/webservco/webapp-skeleton)
+This is a blank project with no initial functionality.  
+For a working Web Application starter project please see [webservco/webapp-skeleton](https://github.com/webservco/webapp-skeleton)
 
 ---
 
@@ -10,10 +11,15 @@ This is a blank project with no code. For a Web Application starter project plea
 * PSR-4 autoload
 * `webservco/framework` `@dev`
 
+## Code examples
+* [Form](\docs\Examples\Form.md)
+* [Database](\docs\Examples\Database.md)
+
 ## Optional utilities
 * `pds/skeleton`
 * `squizlabs/php_codesniffer`
 * `phpstan/phpstan`
+
 
 
 ---
