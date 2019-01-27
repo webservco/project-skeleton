@@ -19,7 +19,7 @@ abstract class AbstractForm extends \WebServCo\Framework\AbstractForm
         foreach ($this->setting('required', []) as $item) {
             if (empty($this->data($item))) {
                 $this->errors[$item][] = sprintf(
-                    'Questo campo è obbligatorio:: %s',
+                    'This field is required: %s',
                     $this->setting(sprintf('meta/%s', $item))
                 );
             }
