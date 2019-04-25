@@ -1,6 +1,6 @@
 <?php
 namespace Project\Database;
 
-class ExampleDatabase extends AbstractDatabase
+class ExampleDatabase extends \WebServCo\Framework\Database\AbstractObject
 {
 }
