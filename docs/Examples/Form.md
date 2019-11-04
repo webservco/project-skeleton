@@ -3,7 +3,8 @@
 ## `\Project\Forms\ExampleForm`
 
 ### Usage
-```
+
+```php
 require __DIR__ . '/../vendor/autoload.php';
 
 $defaultData = [
@@ -16,3 +17,7 @@ if ($form->isSent() && $form->isValid()) {
     // all ok
 }
 ```
+
+---
+
+See also the Framework forms documentation.

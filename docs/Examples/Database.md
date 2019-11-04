@@ -3,7 +3,8 @@
 ## `\Project\Database\ExampleDatabase`
 
 ### Usage
-```
+
+```php
 require __DIR__ . '/../vendor/autoload.php';
 
 $db = new \WebServCo\Framework\Libraries\MysqlPdoDatabase(
@@ -19,3 +20,7 @@ $db = new \WebServCo\Framework\Libraries\MysqlPdoDatabase(
 );
 $myObject = new \Project\Database\ExampleDatabase($db);
 ```
+
+---
+
+See also the Framework database documentation.
