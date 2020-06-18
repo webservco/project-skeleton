@@ -3,7 +3,10 @@ namespace Project\Forms;
 
 final class ExampleForm extends AbstractForm
 {
-    public function __construct($defaultData = [])
+    /**
+    * @param array[] $defaultData
+    */
+    public function __construct(array $defaultData = [])
     {
         parent::__construct(
             [
