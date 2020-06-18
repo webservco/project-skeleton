@@ -33,7 +33,7 @@
         "test:d" : "vendor/bin/phpunit --testdox",
         "check:structure" : "pds-skeleton validate .",
         "check" : "phpcs --standard=PSR2 --extensions=php config public src",
-        "s:7": "phpstan analyse src --level=7 --ansi",
+        "s:7": "phpstan analyse src --level=8 --ansi",
         "all": "clear && composer s:7 && composer check",
         "check:devel": "grep -rnF 'XXX' config public resources src"
     }
