@@ -15,8 +15,13 @@
         }
     ],
     "require" : {
-        "php" : "^7.1",
-        "webservco/framework" : "^9.79.0"
+        "php" : "^7.4",
+        "webservco/framework" : "v10.x-dev"
+    },
+    "require-dev" : {
+        "php-parallel-lint/php-parallel-lint": "^1.2",
+        "php-parallel-lint/php-console-highlighter": "^0.5.0",
+        "slevomat/coding-standard": "^6.4"
     },
     "suggest" : {
         "pds/skeleton" : "A standard filesystem skeleton suitable for all PHP packages.",
@@ -29,12 +34,12 @@
         }
     },
     "scripts" : {
-        "test" : "vendor/bin/phpunit --colors=always",
-        "test:d" : "vendor/bin/phpunit --testdox",
+        "all": "clear && composer s:8 && composer check",
+        "check" : "phpcs --standard=php-coding-standard.xml --extensions=php -sp config public src",
+        "check:devel": "grep -rnF 'XXX' config public resources src",
         "check:structure" : "pds-skeleton validate .",
-        "check" : "phpcs --standard=PSR2 --extensions=php config public src",
-        "s:7": "phpstan analyse src --level=8 --ansi",
-        "all": "clear && composer s:7 && composer check",
-        "check:devel": "grep -rnF 'XXX' config public resources src"
+        "s:8": "phpstan analyse src tests --level=8 --ansi -c phpstan.neon",
+        "test" : "vendor/bin/phpunit --colors=always",
+        "test:d" : "vendor/bin/phpunit --testdox"
     }
 }

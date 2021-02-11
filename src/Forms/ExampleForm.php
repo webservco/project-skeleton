@@ -4,7 +4,7 @@ namespace Project\Forms;
 final class ExampleForm extends AbstractForm
 {
     /**
-    * @param array[] $defaultData
+    * @param array<string,bool|int|float|string|null> $defaultData
     */
     public function __construct(array $defaultData = [])
     {
@@ -30,7 +30,7 @@ final class ExampleForm extends AbstractForm
         );
     }
 
-    protected function validate()
+    protected function validate(): bool
     {
         parent::validate();
 
