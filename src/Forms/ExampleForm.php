@@ -1,8 +1,10 @@
-<?php
+<?php declare(strict_types = 1);
+
 namespace Project\Forms;
 
 final class ExampleForm extends AbstractForm
 {
+
     /**
     * @param array<string,bool|int|float|string|null> $defaultData
     */
