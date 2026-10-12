@@ -1,7 +1,7 @@
 {
     "name" : "webservco/project-skeleton",
     "type" : "project",
-    "description" : "A simple webservco/framework Project Skeleton.",
+    "description" : "A blank project template for webservco/framework. Empty PDS directory layout with Composer autoloading, plus an example form and an example database class.",
     "keywords" : [
         "framework",
         "webservco"
